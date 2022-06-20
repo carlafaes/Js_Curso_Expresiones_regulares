@@ -8,3 +8,4 @@ while (match = patron.exec(mensaje)) {//exec es una función que busca una coinc
     console.log(match)
     console.log("Se encontró ", match[1], " en la posición: ", match.index);//match[1] es el elemento que se encuentra en el array
 }
+///con el metodo while podemos hacer el analisis del patron iterando dentro de la cadena de texto, una y otra vez mientra la condicion se cumpla. Si no se encuentra ninguna coincidencia, el ciclo termina y devuelve undefined
