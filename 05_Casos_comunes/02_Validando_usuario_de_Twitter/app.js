@@ -9,7 +9,7 @@ $(function () {
 
     var isValidTwitter = function () {
         var twitter = document.getElementById('twitter');
-        return /^@(\w+)$/.test(twitter.value)
+        return /^@(\w+)$/.test(twitter.value) // RegExp para validar el formato del Twitter (@username) y que no tenga espacios en blanco al principio o al final 
     }
 
 });
