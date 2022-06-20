@@ -4,7 +4,7 @@ var patron = /\b(\d+)\b/g;//\b significa que sea una palabra completa y no una p
 
 var match;
 
-while (match = patron.exec(mensaje)) {
+while (match = patron.exec(mensaje)) {//exec es una función que busca una coincidencia en un texto y devuelve un array con los elementos que la conforman
     console.log(match)
-    console.log("Se encontró ", match[1], " en la posición: ", match.index);
+    console.log("Se encontró ", match[1], " en la posición: ", match.index);//match[1] es el elemento que se encuentra en el array
 }
